@@ -36,7 +36,7 @@ class Counter extends Component{
 
         return (
             <> 
-                <h1>Counter Application Version-3</h1> 
+                <h1>Counter Application</h1> 
                 <div className={"container"}>
                     <h2 className={"count"}>{this.state.count}</h2>
                     <button className={"inc"} onClick={this.handle_Inc}>INCREMENT</button>
